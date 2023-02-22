@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+.pixel{
+    font-size: 10px;
+    color: red;
+}
+.root_element{
+    font-size: 2rem;
+    color: rgb(47, 188, 47);
+}
+.width_view{
+    font-size: 2vw;
+    color: blue;
+}
+.height_view{
+    font-size: 5hw;
+    color: purple;
+}
+
+.combinator1 p{
+    background-color: rgb(254, 254, 23);
+}
+.combinator2 >p{
+    background-color: rgb(67, 181, 247);
+}
+.combinator3 +p{
+    background-color: rgb(196, 135, 253);
+}
+.combinator4 ~p{
+    background-color: aquamarine;
+}

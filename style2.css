@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.transition {
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 84, 84);
+    transition: width 2s;
+  }
+  
+.transition:hover {
+    width: 300px;
+  }
+
+.rotate {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 84, 84);
+    transition: transform 1s ease-in-out;
+}
+.rotate:hover {
+    transform: rotate(360deg);
+}
